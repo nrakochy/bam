@@ -6,7 +6,6 @@
   :dependencies [[metosin/compojure-api "1.1.8"]
                  [re-frame "0.8.0"]
                  [cljs-ajax "0.5.8"]
-		 [org.clojure/math.combinatorics "0.1.3"]
                  [secretary "1.2.3"]
                  [reagent-utils "0.2.0"]
                  [reagent "0.6.0"]
