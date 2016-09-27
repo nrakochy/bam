@@ -1,13 +1,13 @@
 (ns bam.db.schema
   (:require [clojure.string :refer [lower-case]]
+            [clojure.set :refer [rename-keys]]
             [datomic.api :as d]
             [schema.core :as s]))
 
-;; dynamic symbols-> prefix needs to match required schema.core :as value
+;; dynamic symbols-> sch-prefix needs to match required schema.core :as value e.g. [schema.core :as s]
 (def sch-prefix "s")
 (def ^:dynamic sch-name (symbol "Schema"))
 
-;;
 (def data-schema
   ;;:optional flag is for Schema not Datomic
   [
@@ -184,6 +184,7 @@
   ;; :dat refers to Datomic types
   {:string  {:dat "string" :sch "Str"}
    :boolean {:dat "boolean" :sch "Bool"}
+   :keyword {:dat "keyword" :sch "Any"}
    :long    {:dat "long" :sch "Num"}
    :bigint  {:dat "bigint" :sch "Int"}
    :float   {:dat "float" :sch "Num"}
@@ -196,7 +197,6 @@
    :bytes   {:dat "byte" :sch "Any"}})
 
 ;; DATOMIC
-
 (defn uniqueness-check [result uniq-attr]
   (if uniq-attr
     (assoc result :db/unique (keyword "db.unique" (lower-case uniq-attr)))
@@ -207,7 +207,7 @@
   [{:keys [ent ident type cardinality unique index doc fulltext is-component no-history]
     :or   {index true doc "No docs provided" fulltext false unique nil is-component false no-history false}}]
     (->
-       {:db/id                 (d/tempid :db.part/db)
+       {:db/id                (d/tempid :db.part/db)
        :db/ident              (keyword ent ident)
        :db/valueType          (keyword "db.type" (get-in data-types [(keyword (lower-case type)) :dat]))
        :db/cardinality        (keyword "db.cardinality" (lower-case cardinality))
@@ -219,7 +219,15 @@
        :db.install/_attribute :db.part/db}
      (uniqueness-check unique)))
 
+(defn assoc-datomic-id
+  "Returns map with transformed id key + temp id value for relational mapping on import"
+  [{:keys [id] :as m}]
+    (let [dat-id :db/id]
+    (-> (rename-keys m {:id dat-id})
+        (assoc dat-id (d/tempid :db.part/user id)))))
+
 (defn build-datomic-schema [coll] (map datomic-schema-attribute coll))
+
 
 ;; SCHEMA
 (defn filter-by-ns
@@ -236,13 +244,18 @@
         (assoc m (sch-optional (keyword ident)) sch-type)
         (assoc m (keyword ident) sch-type)))))
 
+(comment
 (defn build-schema-lib
   [{:keys [ent ident type]}]
   (binding [sch-name (symbol sch-name)]
     (s/defschema sch-name
-      {(keyword ident)               (symbol sch-prefix (get-in data-types [(keyword (lower-case type)) :sch]))
+      {(keyword ident)(symbol sch-prefix (get-in data-types [(keyword (lower-case type)) :sch]))
        (s/optional-key :description) s/Str})
     (prn (class ent))
     ent))
+)
+;; SCHEMA END
+
+
 
 (def datomic-schema (build-datomic-schema data-schema))
