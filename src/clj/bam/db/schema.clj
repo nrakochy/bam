@@ -9,7 +9,6 @@
        (zipmap data-entities)))
 
 (def data-schema
-  ;;:optional flag is for Schema not Datomic
   ;; USER
   {:user
    [{:ident       "username"
@@ -154,8 +153,7 @@
      :cardinality "one"
      :doc         "Name of auth service - Githubs, Linkedin, Facebooks, etc."
      :optional    false}
-    {:ent         "authentication"
-     :ident       "token"
+    {:ident       "token"
      :type        :string
      :cardinality "one"
      :doc         "Logging it in with a token"
@@ -164,7 +162,7 @@
 (def data-entities (keys data-schema))
 
 (def data-references
-   (extract-references data-entities))
+  (extract-references data-entities))
 
 (def data-types
   ;; Prismatic Schema (:sch) types - Any, Bool, Num, Keyword, Symbol, Int, and Str
