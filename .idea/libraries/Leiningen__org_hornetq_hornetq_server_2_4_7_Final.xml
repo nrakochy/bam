@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.hornetq/hornetq-server:2.4.7.Final">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hornetq/hornetq-server/2.4.7.Final/hornetq-server-2.4.7.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
