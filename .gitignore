@@ -4,7 +4,8 @@
 /checkouts
 pom.xml
 *.jar
-*.idea
+**/.idea/workspace.xml
+**/.idea/tasks.xml
 *.class
 /.lein-*
 profiles.clj

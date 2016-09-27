@@ -21,42 +21,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clj/bam/db/core.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="schema.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/clj/bam/db/schema.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profiles.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="740">
+              <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+              <folding>
+                <marker date="1474944258497" expanded="true" signature="349:5256" ph="(def data-schema ...)" />
+                <marker date="1474944258497" expanded="true" signature="6050:6964" ph="(defn datomic-schema-attribute ...)" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,8 +40,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/clj/bam/routes/services.clj" />
-        <option value="$PROJECT_DIR$/src/clj/bam/db/core.clj" />
         <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/io/file_io.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/db/core.clj" />
         <option value="$PROJECT_DIR$/src/clj/bam/db/schema.clj" />
       </list>
     </option>
@@ -105,7 +79,86 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
@@ -121,7 +174,7 @@
       <recent name="C:\Users\nrakochy\code\clojure\bam\src\clj\bam\db" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1474641108913">{:repl-history {:ide [], :local [&quot;(def t1 :user/first-name)&quot; &quot;t1&quot; &quot;(namespace t1)&quot; &quot;(def t2 :nothing/first-name)&quot; &quot;t2&quot; &quot;(namespace t2)&quot; &quot;(keyword \&quot;\nuser\&quot;)&quot; &quot;(keyword \&quot;nonething\&quot; \&quot;first-name\&quot;)&quot; &quot;(keyword :test1 \&quot;first-name\&quot;)&quot; &quot;(keyword \&quot;db.type\&quot; \&quot;string\&quot;)&quot; &quot;(def t3 {:a 1 :b 2})&quot; &quot;(cond-&gt; nil)&quot; &quot;(use '[bam.db.core :as mydb\n       ])&quot; &quot;l (use '[bam.db.core :as mydb\n         ])&quot; &quot;(ring.middleware.reload)&quot; &quot;(use '[bam.core :as c])&quot; &quot;l (use '[bam.db.core :as mydb])&quot; &quot;(use '[bam.db.core :as mydb])&quot; &quot;(datomic-schema-attribute (first data-schema))&quot; &quot;(let [{:keys [x y] :or {x 0 y 0}} point]\n         (println \&quot;x:\&quot; x \&quot;y:\&quot; y))&quot; &quot;(let [{:keys [x y] :or {x 0 y 0}} {:x 1000}]\n         (println \&quot;x:\&quot; x \&quot;y:\&quot; y))&quot; &quot;(use '[bam.db.core :as mydb] :reload-all\n     )&quot; &quot;(first data-schema\n       )&quot; &quot;(let [{:keys [ns ident type cardinality index doc unique fulltext is-component no-history]} (first data-schema)] &quot; &quot;(let [{:keys [ns ident type cardinality index doc unique fulltext is-component no-history]} (first data-schema)] (println ns) )&quot; &quot;(build-datomic-schema data-schema)&quot; &quot;test1&quot; &quot;(defn test1 [] {:test \&quot;test\&quot;})&quot; &quot;(test1)&quot; &quot;(datomic-schema-attribute (first data-schema\n                                 ))&quot; &quot;(class test2\n       )&quot; &quot;(def test2 (build-datomic-schema data-schema\n                                 ))&quot; &quot;(use '[bam.db.core :as mydb] :reload-all)&quot; &quot;(use '[bam.db.core :as\n       mydb] :reload-all)&quot; &quot;(def test2 (build-datomic-schema data-schema))&quot; &quot;test2&quot; &quot;(source data-types)&quot; &quot;(use '[bam.db.schema :as\n       mydb] :reload-all)&quot; &quot;(map #(ns-unmap *ns* %) (keys (ns-interns *ns*)))&quot; &quot;(map #(ns-unmap *ns* %) (keys (ns-interns user)))&quot; &quot;(map #(ns-unmap *ns* %) (keys (ns-interns 'user)))&quot; &quot;(use '[bam.db.schema :as\n       db1] :reload-all)&quot; &quot;(exit)&quot; &quot;exit&quot; &quot;(quit)&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1474944727674">{:repl-history {:ide [], :local [&quot;(filter (comp #(= \&quot;user\&quot; %)) data-schema ) &quot; &quot;(source comp)&quot; &quot;(filter (comp #(= (:name data-schema) \&quot;user\&quot;) val) data-schema ) &quot; &quot;(filter (comp #(= (:name {:name \&quot;user\&quot;}) \&quot;user\&quot;) val) data-schema ) &quot; &quot;(filter (comp #(= (:name {:name \&quot;user\&quot;}) %) val) data-schema) &quot; &quot;(filter (comp even? val) {:test 2})&quot; &quot;(use '[\n       bam.db.schema :as \n       \n       db1] :reload-all)&quot; &quot;(filter (comp even? val) data-schema)&quot; &quot;(filter (comp even?\n              val) data-schema)&quot; &quot;(source string?)&quot; &quot;(filter (comp string?\n              val) data-schema)&quot; &quot;(filter (comp string? val) data-schema)&quot; &quot;(filter (comp string? val) (first data-schema) )&quot; &quot;(filter #(= (:name %) \&quot;user\&quot;) (first data-schema) )&quot; &quot;(filter #(= (:ns %) \&quot;user\&quot;) (first data-schema) )&quot; &quot;(def entry (first data-schema))&quot; &quot;entry&quot; &quot;(filter #(= (:ns entry) \&quot;user\&quot;) (first data-schema) )&quot; &quot;(filter #(= (:ns entry) %) (first data-schema) )&quot; &quot;(:ns entry)&quot; &quot;#(= \&quot;user\&quot; \&quot;user\&quot;)&quot; &quot;#(= \&quot;user\&quot; %)&quot; &quot;(filter #(= \&quot;user\&quot; %) data-schema )&quot; &quot;(filter #(= \&quot;user\&quot; (% :ns) data-schema )&quot; &quot;(filter #(= \&quot;user\&quot; (% :ns) ) data-schema )&quot; &quot;(filter-by-ns data-schema)&quot; &quot;(filter-by-ns \&quot;user\&quot; data-schema)&quot; &quot;(filter-by-ns \&quot;user\&quot; (first data-schema) data-schema)&quot; &quot;(filter-by-ns \&quot;user\&quot; (first data-schema))&quot; &quot;data-schema&quot; &quot;(lower-case \&quot;stest\&quot;)&quot; &quot;(re)&quot; &quot;(use '[bam.db.schema :as \n       \n       db1] :reload-all)&quot; &quot;(get-in data-types [(keyword (lower-case \&quot;String\&quot;)) :sch])&quot; &quot;(build-entity-attr {} (first data-schema))&quot; &quot;(def test1 (build-entity-attr {} (first data-schema)) )&quot; &quot;test1&quot; &quot;(build-schema-lib data-schema)&quot; &quot;(class ent)&quot; &quot;User&quot; &quot;(def test5 (build-schema-lib (first data-schema)))&quot; &quot;test5&quot; &quot;(def test5 (build-schema-lib (f\n                               irst data-schema)))&quot; &quot;(\n  use '[bam.db.schema :as \n       \n       db1] :reload-all)&quot; &quot;(build-schema-lib (first data-schema))&quot; &quot;(symbol \&quot;ent\&quot;)&quot; &quot;'(symbol \&quot;ent\&quot;)&quot; &quot;(build-schema-lib (first data-schema\n                         ))&quot; &quot;ggk&quot; &quot;record-ns&quot; &quot;user&quot; &quot;ent&quot; &quot;(\n  \n  use '[bam.db.schema :as \n       \n       db1] :reload-all)&quot; &quot;(build-schema-lib (first data-schema \n                         ))&quot; &quot;(\n  \n  \n  use '[bam.db.schema :as \n       \n       db1] :reload-all)&quot; &quot;(source s/defschema)&quot; &quot;(build-entity-attr (first data-schema))&quot; &quot;(use '[bam.db.schema :as db1] :reload-all)&quot; &quot;(def test1 (create-schema))&quot; &quot;(-&gt; \&quot;test\&quot; prn)&quot; &quot;(-&gt; \&quot;test\&quot; #(apply str \&quot;another\&quot;) prn)&quot; &quot;(-&gt; \&quot;test\&quot; #(apply (str % \&quot; string\&quot;)) prn)&quot; &quot;(-&gt; \&quot;test\&quot; #((str % \&quot; string\&quot;)) prn)&quot; &quot;(-&gt; \&quot;test\&quot; #(str % \&quot; string\&quot;) prn)&quot; &quot;(-&gt; \&quot;test\&quot; :check)&quot; &quot;(defn print-args [x y]\n  (prn x)\n  (prn y)\n  )&quot; &quot;(-&gt; \&quot;test\&quot; \&quot;/nCHECK\&quot; print-args)&quot; &quot;db-inst&quot; &quot;(if true (prn \&quot;true\&quot;) \&quot;false\&quot;)&quot; &quot;(if false (prn \&quot;true\&quot;) \&quot;false\&quot;)&quot; &quot;(if nil? (prn \&quot;true\&quot;) \&quot;false\&quot;)&quot; &quot;datomic-schema&quot; &quot;(use '[bam.db.core :as mydb] :reload-all)&quot; &quot;(create-schema)&quot; &quot;(def path \&quot;./sample.csv\&quot;)&quot; &quot;(parse-csv path)&quot; &quot;(def path1 \&quot;./sample.csv\&quot;)&quot; &quot;(use '[bam.io.file-io :as fio] :reload-all)&quot; &quot;(exit)&quot; &quot;exit&quot; &quot;(def f1 \&quot;./resources/sample.csv\&quot;)&quot; &quot;kkk&quot; &quot;(def all-lines ('(\&quot;username,email\&quot; \&quot;test1test1@example.com\&quot;)))&quot; &quot;(def d1 (seq(\&quot;username,email\&quot; \&quot;test1test1@example.com\&quot;)))&quot; &quot;d1&quot; &quot;(parse-csv f1)&quot; &quot;(def path2 \&quot;./resources/sample.csv\&quot;)&quot; &quot;(parse-csv path2)&quot; &quot;(def t1 [\&quot;username\&quot; \&quot;email\&quot;])&quot; &quot;(def d1  [ t1 [\&quot;test1\&quot; \&quot;test1@example.com\&quot;] ])&quot; &quot;(zipmap (first t1) (last t1))&quot; &quot;(map #(zipmap (first d1) (rest d1)))&quot; &quot;(map #(zipmap (first d1) % ) (rest d1)))&quot; &quot;(map #(zipmap (first d1) % ) (rest d1))&quot; &quot;(use '[bam.io.file-io :as f] :reload-all)&quot; &quot;(f/parse-csv path2)&quot; &quot;(keyword \&quot;db\&quot; \&quot;id\&quot;)&quot; &quot;(keyword \&quot;db\&quot; :id)&quot; &quot;(class (keyword \&quot;db\&quot; \&quot;id\&quot;))&quot; &quot;()&quot; &quot;(use '[bam.db.schema] :reload-all)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure REPL.lein-repl">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -354,19 +407,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44616205" sideWeight="0.5314136" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029317698" sideWeight="0.5152225" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03452116" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64444447" sideWeight="0.4685864" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0311804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52555555" sideWeight="0.4847775" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36555555" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09381663" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -392,7 +445,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -601,14 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -619,17 +664,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/io/file_io.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/bam/db/schema.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="740">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding>
+            <marker date="1474944258497" expanded="true" signature="349:5256" ph="(def data-schema ...)" />
+            <marker date="1474944258497" expanded="true" signature="6050:6964" ph="(defn datomic-schema-attribute ...)" />
+          </folding>
         </state>
       </provider>
     </entry>
