@@ -7,6 +7,11 @@
 ;; dynamic symbols-> sch-prefix needs to match required schema.core :as value e.g. [schema.core :as s]
 (def sch-prefix "s")
 (def ^:dynamic sch-name (symbol "Schema"))
+(def data-references
+  { :user       ["roles" "authentications"]
+    :org        ["category"]
+    :project    ["workScopes"]
+    :workscope  ["skills"]})
 
 (def data-schema
   ;;:optional flag is for Schema not Datomic
@@ -54,7 +59,7 @@
     :ident       "authentications"
     :type        "ref"
     :cardinality "many"
-    :doc         "Authentication services"
+    :doc         "Authentication services- probably OAuth"
     :optional    true}
    ;; ORGANIZATIONS
    {:ent         "org"
@@ -219,15 +224,25 @@
        :db.install/_attribute :db.part/db}
      (uniqueness-check unique)))
 
-(defn assoc-datomic-id
-  "Returns map with transformed id key + temp id value for relational mapping on import"
+(defn set-temp-id [id]
+    (d/tempid :db.part/user id))
+
+(defn set-ref-data [{:keys [ent] :as m}]
+  (if-let [refs (ent data-references)]
+    (reduce #(update %1 %2 set-temp-id) m refs)
+    m))
+
+(defn transform-into-datomic-ids
+  "Returns map with transformed id key + temp id value, ref id + related value if it exists for mapping on import"
   [{:keys [id] :as m}]
     (let [dat-id :db/id]
     (-> (rename-keys m {:id dat-id})
-        (assoc dat-id (d/tempid :db.part/user id)))))
+        (assoc dat-id (set-temp-id id))
+        (set-ref-data))))
 
 (defn build-datomic-schema [coll] (map datomic-schema-attribute coll))
 
+(def datomic-schema (build-datomic-schema data-schema))
 
 ;; SCHEMA
 (defn filter-by-ns
@@ -255,7 +270,3 @@
     ent))
 )
 ;; SCHEMA END
-
-
-
-(def datomic-schema (build-datomic-schema data-schema))
