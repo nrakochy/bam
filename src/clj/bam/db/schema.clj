@@ -1,13 +1,5 @@
 (ns bam.db.schema)
 
-(defn get-reference-idents [coll]
-  (->> (filterv #(= :ref (:type %)) coll)
-       (mapv #(:ident %))))
-
-(defn extract-references [entities]
-  (->> (mapv #(get-reference-idents (get data-schema %)) entities)
-       (zipmap data-entities)))
-
 (def data-schema
   ;; USER
   {:user
@@ -41,11 +33,13 @@
      :optional    true}
     {:ident       "roles"
      :type        :ref
+     :ref-ent     [:enum "role"]
      :cardinality "many"
      :doc         "Role in project"
      :optional    true}
     {:ident       "authentications"
      :type        :ref
+     :ref-ent     [:authentication "name"]
      :cardinality "many"
      :doc         "Authentication services- probably OAuth"
      :optional    true}]
@@ -58,6 +52,7 @@
      :optional    false}
     {:ident       "category"
      :type        :ref
+     :ref-ent     [:category "name"]
      :cardinality "one"
      :doc         "Organization category"
      :optional    false}
@@ -90,6 +85,7 @@
      :optional    false}
     {:ident       "workScopes"
      :type        :ref
+     :ref-ent     [:workScope "id"]
      :cardinality "many"
      :doc         "Details of project"
      :optional    false}]
@@ -97,6 +93,7 @@
    :workScope
    [{:ident       "skills"
      :type        :ref
+     :ref-ent     [:skill "name"]
      :cardinality "many"
      :doc         "Cf. of skills needed for the project - consultative, technological, data science-ing etc."
      :optional    true}
@@ -161,8 +158,25 @@
 
 (def data-entities (keys data-schema))
 
+(defn ent-idents [coll]
+  (mapv #(:ident %) coll))
+
+(defn ident-by-ent-key
+  "Retrieve all idents of data-schema as a vector of strings of a given entity key.
+  i.e. passing in :org might return ['name' 'category' 'website' 'ein']"
+  [ent-key]
+  (ent-idents (ent-key data-schema)))
+
+(defn get-reference-idents
+  "Retrieves all idents with type = ref from data-schema as vector of strings."
+  [coll]
+  (->> (filterv #(= :ref (:type %)) coll)
+       (ent-idents)))
+
 (def data-references
-  (extract-references data-entities))
+  "Returns hash of entity as key and vector of stringified ref idents as value"
+  (->> (mapv #(get-reference-idents (get data-schema %)) data-entities)
+       (zipmap data-entities)))
 
 (def data-types
   ;; Prismatic Schema (:sch) types - Any, Bool, Num, Keyword, Symbol, Int, and Str
