@@ -46,25 +46,30 @@
 (defn build-datomic-schema
   "Builds Datomic schema for from all entities as defined in data-schema"
   [result ent]
-  (->>  (ent schema/data-schema)
-        (build-entity-sch ent)
-        (lazy-cat result)))
+  (->> (ent schema/data-schema)
+       (build-entity-sch ent)
+       (lazy-cat result)))
 
 ;; DATOMIC- TRANSLATE
 (defn set-alt-type [])
 (defn ent-attrs [{:keys [id username fullname email] :as m}]
-  [{:db/id   id
-   :user/username username
-   :user/fullName fullname
-   :user/email    email}])
+  [{:db/id         id
+    :user/username username
+    :user/fullName fullname
+    :user/email    email}])
 
 ;; DATOMIC- IMPORT DATA
 (defn set-temp-id [id]
   (d/tempid :db.part/user id))
 
+(defn set-ref [result ref]
+
+  )
+
 (defn set-ref-data
   "Checks data-references for attrs that need to be converted to ref data"
   [{:keys [ent] :as m}]
+  (prn ent)
   (if-let [refs (ent schema/data-references)]
     (reduce #(update %1 %2 set-temp-id) m refs)
     m))
@@ -80,4 +85,7 @@
 
 (def datomic-schema (reduce build-datomic-schema [] schema/data-entities))
 
-(defn test1 [] schema/data-references)
+(def data-import [{:ent :user :id -1 :username "nrako" :email "test@example.com" :fullname "Nick" :role -4}
+                  {:ent :user :id -2 :username "test8" :email "test8@example.com" :fullname "Test Name"}
+                  {:ent :enum :id -4 :role "Developer"}
+                  ])

@@ -1,5 +1,5 @@
 (ns bam.db.repo-service
-  (:require [bam.db.core :as db :refer [retrieve-entity]]))
+  (:require [bam.db.core :as db :refer [retrieve-with]]))
 
-(defn get [m]
-  (db/retrieve-entity m))
+(defn retrieve [m]
+  (db/retrieve-with m))

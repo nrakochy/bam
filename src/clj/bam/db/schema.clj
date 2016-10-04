@@ -32,14 +32,14 @@
      :doc         "User Company"
      :optional    true}
     {:ident       "roles"
-     :type        :ref
      :ref-ent     [:enum "role"]
+     :type        :ref
      :cardinality "many"
      :doc         "Role in project"
      :optional    true}
     {:ident       "authentications"
-     :type        :ref
      :ref-ent     [:authentication "name"]
+     :type        :ref
      :cardinality "many"
      :doc         "Authentication services- probably OAuth"
      :optional    true}]
@@ -51,8 +51,8 @@
      :doc         "Organization name"
      :optional    false}
     {:ident       "category"
-     :type        :ref
      :ref-ent     [:category "name"]
+     :type        :ref
      :cardinality "one"
      :doc         "Organization category"
      :optional    false}
@@ -84,16 +84,16 @@
      :doc         "Type of project - on-going, feature development, start-up, etc."
      :optional    false}
     {:ident       "workScopes"
+     :ref-ident   [:workScope "name"]
      :type        :ref
-     :ref-ent     [:workScope "id"]
      :cardinality "many"
      :doc         "Details of project"
      :optional    false}]
    ;; WORK SCOPE
    :workScope
    [{:ident       "skills"
-     :type        :ref
      :ref-ent     [:skill "name"]
+     :type        :ref
      :cardinality "many"
      :doc         "Cf. of skills needed for the project - consultative, technological, data science-ing etc."
      :optional    true}
@@ -101,6 +101,11 @@
      :type        :string
      :cardinality "one"
      :doc         "Description of scope of work"
+     :optional    false}
+    {:ident       "name"
+     :type        :string
+     :cardinality "one"
+     :doc         "Name Summary of workscope"
      :optional    false}
     {:ident       "budgetedHours"
      :type        :float
