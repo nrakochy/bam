@@ -5,7 +5,7 @@
             [bam.config :refer [env]]
             [clojure.tools.cli :refer [parse-opts]]
             [clojure.tools.logging :as log]
-            [mount.core :as mount])
+            [mount.core :as mount :refer [defstate]])
   (:gen-class))
 
 (def cli-options
@@ -30,7 +30,6 @@
                 :stop
                 (when repl-server
                   (repl/stop repl-server)))
-
 
 (defn stop-app []
   (doseq [component (:stopped (mount/stop))]

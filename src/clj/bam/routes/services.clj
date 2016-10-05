@@ -1,6 +1,7 @@
 (ns bam.routes.services
   (:require [ring.util.http-response :refer :all]
             [compojure.api.sweet :refer :all]
+            [bam.db.repo-service :as repo :refer [retrieve]]
             [schema.core :as s]
             [compojure.api.meta :refer [restructure-param]]
             [buddy.auth.accessrules :refer [restrict]]
@@ -22,51 +23,47 @@
   (update-in acc [:letks] into [binding `(:identity ~'+compojure-api-request+)]))
 
 (defapi service-routes
-        {:swagger {:ui   "/swagger-ui"
+        {:swagger {:ui   "/api-docs"
                    :spec "/swagger.json"
                    :data {:info {:version     "1.0.0"
-                                 :title       "Sample API"
-                                 :description "Sample Services"}}}}
+                                 :title       "BAM API"
+                                 :description "Ye olde api"}}}}
 
         (GET "/authenticated" []
              :auth-rules authenticated?
              :current-user user
              (ok {:user user}))
+
         (context "/api" []
-                 :tags ["thingie"]
+                 (context "/users" []
+                          :tags ["users"]
+                          (GET "/:username" []
+                               :path-params [username :- String]
+                               :summary "Retrieve user by username"
+                               (ok (repo/retrieve {:user/username username})))
 
-                 (GET "/plus" []
-                      :return Long
-                      :query-params [x :- Long, {y :- Long 1}]
-                      :summary "x+y with query-parameters. y defaults to 1."
-                      (ok (+ x y)))
+                          (GET "/:id" []
+                               :path-params [id :- Long]
+                               :summary "Retrieve user by db id"
+                               (ok (repo/retrieve {:user/user-id id}))))
 
-                 (GET "/people" []
-                      :return Long
-                      :query-params [x :- Long, {y :- Long 1}]
-                      :summary "x+y with query-parameters. y defaults to 1."
-                      (ok (+ x y)))
+                 (context "/projects" []
+                          :tags ["projects"]
+                          (GET "/:id" []
+                               :path-params [id :- Long]
+                               :summary "Retrieve user by db id"
+                               (ok (repo/retrieve {:project/project-id id}))))
 
-                 (POST "/minus" []
-                       :return Long
-                       :body-params [x :- Long, y :- Long]
-                       :summary "x-y with body-parameters."
-                       (ok (- x y)))
+                 (context "/organizations" []
+                          :tags ["organizations"]
+                          (GET "/:id" []
+                               :path-params [id :- Long]
+                               :summary "Get organization by id"
+                               (ok (repo/retrieve {:organization/org-id id}))))
 
-                 (GET "/times/:x/:y" []
-                      :return Long
-                      :path-params [x :- Long, y :- Long]
-                      :summary "x*y with path-parameters"
-                      (ok (* x y)))
-
-                 (POST "/divide" []
-                       :return Double
-                       :form-params [x :- Long, y :- Long]
-                       :summary "x/y with form-parameters"
-                       (ok (/ x y)))
-
-                 (GET "/power" []
-                      :return Long
-                      :header-params [x :- Long, y :- Long]
-                      :summary "x^y with header-parameters"
-                      (ok (long (Math/pow x y))))))
+                 (context "/command" []
+                          :tags ["commands"]
+                          (POST "/" []
+                               :body-params [command :- String payload :- {s/Keyword String}]
+                               :summary "Server command writer"
+                               (ok (repo/retrieve payload))))))
