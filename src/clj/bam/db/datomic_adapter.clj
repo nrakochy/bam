@@ -62,9 +62,7 @@
 (defn set-temp-id [id]
   (d/tempid :db.part/user id))
 
-(defn set-ref [result ref]
-
-  )
+(defn set-ref [result ref])
 
 (defn set-ref-data
   "Checks data-references for attrs that need to be converted to ref data"
@@ -84,8 +82,3 @@
         (set-ref-data))))
 
 (def datomic-schema (reduce build-datomic-schema [] schema/data-entities))
-
-(def data-import [{:ent :user :id -1 :username "nrako" :email "test@example.com" :fullname "Nick" :role -4}
-                  {:ent :user :id -2 :username "test8" :email "test8@example.com" :fullname "Test Name"}
-                  {:ent :enum :id -4 :role "Developer"}
-                  ])
