@@ -16,3 +16,9 @@
   :set-docs
   (fn [db [_ docs]]
     (assoc db :docs docs)))
+
+(reg-event-db
+  :toggle-sidebar
+  (fn [db _]
+    (->> (not (:sidebar-collapsed? db))
+        (assoc db :sidebar-collapsed?))))

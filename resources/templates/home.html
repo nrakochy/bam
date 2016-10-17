@@ -6,8 +6,7 @@
       <title>Welcome to bam</title>
   </head>
   <body>
-    
-    <div id="app">
+    <section id="app">
       <div class="container-fluid">
         <div class="card-deck">
           <div class="card-block">
@@ -26,12 +25,14 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- scripts and styles -->
     {% style "/assets/bootstrap/css/bootstrap.min.css" %}
     {% style "/assets/font-awesome/css/font-awesome.min.css" %}
     {% style "/css/screen.css" %}
+    {% style "/css/custom.css" %}
+    {% style "https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" %}
 
     <script type="text/javascript">
         var context = "{{servlet-context}}";

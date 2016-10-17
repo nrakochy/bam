@@ -1,8 +1,8 @@
 html,
 body {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     height: 100%;
 }
+
 .navbar {
   margin-bottom: 10px;
 }
@@ -65,4 +65,3 @@ body {
         transform: rotate(360deg);
     }
 }
-

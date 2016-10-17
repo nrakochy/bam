@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33fe89f9-c8e5-4849-ae44-1fb231ad9d93" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/bam/db/schema.clj" afterPath="$PROJECT_DIR$/src/clj/bam/db/schema.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/public/css/screen.css" afterPath="$PROJECT_DIR$/resources/public/css/screen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/templates/home.html" afterPath="$PROJECT_DIR$/resources/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljs/bam/core.cljs" afterPath="$PROJECT_DIR$/src/cljs/bam/core.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljs/bam/db.cljs" afterPath="$PROJECT_DIR$/src/cljs/bam/db.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljs/bam/handlers.cljs" afterPath="$PROJECT_DIR$/src/cljs/bam/handlers.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljs/bam/layout.cljs" afterPath="$PROJECT_DIR$/src/cljs/bam/layout.cljs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cljs/bam/subscriptions.cljs" afterPath="$PROJECT_DIR$/src/cljs/bam/subscriptions.cljs" />
     </list>
     <ignored path="bam.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +31,58 @@
     <favorites_list name="bam" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="handlers.cljs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cljs/bam/handlers.cljs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.cljs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cljs/bam/db.cljs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.cljs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cljs/bam/core.cljs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/public/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="subscriptions.cljs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cljs/bam/subscriptions.cljs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,16 +91,33 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/clj/bam/db/Schema_adapter.clj" />
-        <option value="$PROJECT_DIR$/src/clj/bam/db/datomic_adapter.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/routes/home.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/core.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/db/repo_service.clj" />
         <option value="$PROJECT_DIR$/src/clj/bam/db/schema.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/db/datomic_adapter.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/db/core.clj" />
+        <option value="$PROJECT_DIR$/src/clj/bam/routes/services.clj" />
+        <option value="$PROJECT_DIR$/resources/templates/layout.html" />
+        <option value="$PROJECT_DIR$/resources/templates/layout.cljs" />
+        <option value="$PROJECT_DIR$/resources/public/css/gentelella_theme.css" />
+        <option value="$PROJECT_DIR$/src/cljs/bam/layout.cljs" />
+        <option value="$PROJECT_DIR$/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/cljs/bam/core-sidebar-test.cljs" />
+        <option value="$PROJECT_DIR$/resources/public/css/screen.css" />
+        <option value="$PROJECT_DIR$/src/cljs/bam/handlers.cljs" />
+        <option value="$PROJECT_DIR$/src/cljs/bam/db.cljs" />
+        <option value="$PROJECT_DIR$/src/cljs/bam/subscriptions.cljs" />
+        <option value="$PROJECT_DIR$/src/cljs/bam/core.cljs" />
+        <option value="$PROJECT_DIR$/resources/public/css/custom.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-5" />
+    <option name="y" value="50" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -68,9 +144,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -102,22 +177,8 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="clj" />
+              <option name="myItemId" value="cljs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -138,33 +199,80 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="clj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bam" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/bug_fix_defs/2016_10_03_12_25_NAME_Names_Mobile_Phone_Label.def" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nrakochy\code\clojure\bam\src\cljs\bam" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\nrakochy\code\clojure\bam\src\clj\bam\db" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1475015604866">{:repl-history {:ide [], :local [&quot;(select-keys {:a 1 :b 2})&quot; &quot;(source select-keys)&quot; &quot;(keys {:a 1 :b 2})&quot; &quot;(use '[bam.db.schema] :reload-all)&quot; &quot;(build-datomic-schema \&quot;user\&quot; (:user data-schema))&quot; &quot;(build-entity-schema \&quot;user\&quot; (:user data-schema))&quot; &quot;(use '[bam.db.schema :as scheming] :reload-all)&quot; &quot;(datomic-schema-attribute {:ent \&quot;user\&quot; :ident \&quot;username\&quot; :type \&quot;string\&quot; :cardinality \&quot;one\&quot;})&quot; &quot;(def test11{:ent \&quot;user\&quot; :ident \&quot;username\&quot; :type \&quot;string\&quot; :cardinality \&quot;one\&quot;})&quot; &quot;test11&quot; &quot;(data-schema)&quot; &quot;(def test1{:ent \&quot;user\&quot; :ident \&quot;username\&quot; :type \&quot;string\&quot; :cardinality \&quot;one\&quot;})&quot; &quot;(build-datomic-schema :user)&quot; &quot;(class (build-datomic-schema [] :user) )&quot; &quot;(build-datomic-schema [] :user)&quot; &quot;(t)&quot; &quot;(def test2 (build-datomic-schema [] :user))&quot; &quot;(build-datomic-schema test2 :org)&quot; &quot;(tester)&quot; &quot;(data-references)&quot; &quot;data-schema&quot; &quot;tester&quot; &quot;(source filterv)&quot; &quot;(def test1 {:a 1 :b 2})&quot; &quot;(filterv #(= :ref (:type test1)))&quot; &quot;(filterv #(= :ref (:type %)) test1)&quot; &quot;test1&quot; &quot;(def test2 [{:type \&quot;nothing\&quot; :a 1} {:type :ref :b 2}])&quot; &quot;(filterv #(= :ref (:type %)) test2)&quot; &quot; (:b (filterv #(= :ref (:type %)) test2) )&quot; &quot;test2&quot; &quot;(extract-references test3)&quot; &quot;(def test3 [{:type \&quot;nothing\&quot; :name \&quot;Superior\&quot;} {:type :ref :name \&quot;Check\&quot;}])&quot; &quot;(get-reference-types test3)&quot; &quot;(get-reference-types (:user data-entities))&quot; &quot;(get-reference-types [ (:user data-entities) ])&quot; &quot;(get-reference-types [ (:user data-schema) ])&quot; &quot;(get-reference-types (:user data-schema))&quot; &quot;data-entities&quot; &quot;(extract-references)&quot; &quot;(extract-references data-entities)&quot; &quot;data-references&quot; &quot;(use '[bam.db.schema :as sch] :reload-all)&quot; &quot;(use '[bam.db.datomic-adapter :as adapter] :reload-all)&quot; &quot;datomic-schema&quot;], :remote []}}</component>
+  <component name="ReplState" timestamp="1476717813366">{:repl-history {:ide [], :local [&quot;(def test1 {:a 1 :b 2})&quot; &quot;(filterv #(= :ref (:type test1)))&quot; &quot;(filterv #(= :ref (:type %)) test1)&quot; &quot;(def test2 [{:type \&quot;nothing\&quot; :a 1} {:type :ref :b 2}])&quot; &quot;(filterv #(= :ref (:type %)) test2)&quot; &quot; (:b (filterv #(= :ref (:type %)) test2) )&quot; &quot;(extract-references test3)&quot; &quot;(def test3 [{:type \&quot;nothing\&quot; :name \&quot;Superior\&quot;} {:type :ref :name \&quot;Check\&quot;}])&quot; &quot;(get-reference-types test3)&quot; &quot;(get-reference-types (:user data-entities))&quot; &quot;(get-reference-types [ (:user data-entities) ])&quot; &quot;(get-reference-types [ (:user data-schema) ])&quot; &quot;(get-reference-types (:user data-schema))&quot; &quot;data-entities&quot; &quot;(extract-references)&quot; &quot;(extract-references data-entities)&quot; &quot;(use '[bam.db.schema :as sch] :reload-all)&quot; &quot;(use '[bam.db.datomic-adapter :as adapter] :reload-all)&quot; &quot;()&quot; &quot;(source d/q)&quot; &quot;(user-query)&quot; &quot;(user-query db-inst 86)&quot; &quot;(:user data-schema)&quot; &quot;db-schema/datomic-schema&quot; &quot;db-schema/data-schema&quot; &quot;(use '[bam.db.datomic-adapter :as db-schema] :reload-all)&quot; &quot;datomic-schema&quot; &quot;(add-user user1)&quot; &quot;(user-query db-inst 1)&quot; &quot;(doc d/q)&quot; &quot;/user&quot; &quot;(use '[datomic.api :as dt] :reload-all)&quot; &quot;(use '[datomic.api :as dat] :reload-all)&quot; &quot;(def user1 {:id 1 :username \&quot;nrako\&quot; :fullname \&quot;Nick\&quot; :email \&quot;test@example.com\&quot;})&quot; &quot;(add-user db-inst user1)&quot; &quot;(init)&quot; &quot;db-insta&quot; &quot;(user-query \&quot;nrako\&quot;)&quot; &quot;(source x)&quot; &quot;(create-schem)&quot; &quot;(add-user test1)&quot; &quot;(user-query db-inst \&quot;nrako\&quot;)&quot; &quot;(find-wrapper user-map-query db-inst)&quot; &quot;(user-map-query db-inst \&quot;nrako\&quot;)&quot; &quot;logical-or&quot; &quot;(get-req logical-or db-inst {:db/id 1})&quot; &quot;db-inst&quot; &quot;(retrieve-entity db-inst {:user/username \&quot;nrako\&quot;})&quot; &quot;(retrieve-entity  db-inst {:user/username \&quot;nrako\&quot;})&quot; &quot;( db-inst {:user/username \&quot;nrako\&quot;})&quot; &quot;(logical-or db-inst {})&quot; &quot;(logical-or db-inst {:user/username \&quot;nrako\&quot;})&quot; &quot;(use '[bam.db.core :as core] :reload-all)&quot; &quot;(ident-by-ent-key :org\n                  )&quot; &quot;(get-reference-idents (:user data-schema))&quot; &quot;(ident-by-ent-key :user)&quot; &quot;(ident-by-ent-key :org)&quot; &quot;(use '[bam.db.schema :as my_schema] :reload-all)&quot; &quot;data-references&quot; &quot;(key {:a 1})&quot; &quot;(keys {:a 1})&quot; &quot;(some (= \&quot;category\&quot; %) (:org data-references))&quot; &quot;(some #(= \&quot;category\&quot; %) (:org data-references))&quot; &quot;(some #(= \&quot;category\&quot; %) (:workScope data-references))&quot; &quot;(vec {:a 1})&quot; &quot;(into [] {:a 1})&quot; &quot;(def test1 {:id 1 :username \&quot;nrako\&quot; :authentications [\&quot;Twitter\&quot;]})&quot; &quot;(transform-into-datomic-ids test1)&quot; &quot;(use '[bam.db.datomic-adapter :as dadap] :reload-all)&quot; &quot;(test1)&quot; &quot;(ent (test1))&quot; &quot;(:user (test1))&quot; &quot;(use '[clojure.set :as set-it] :reload-all)&quot; &quot;(defn transform-it\n  \&quot;Returns map with transformed id (as :db/id) key + temp id value (as required by Datomic),\n   ref id + related value if it exists for mapping on import\&quot;\n  [{:keys [id] :as m}]\n  (let [dat-id :db/id]\n    (-&gt; (rename-keys m {:id dat-id})\n        (assoc dat-id (set-temp-id id))\n        (set-ref-data))))&quot; &quot;(def new1 (test1))&quot; &quot;(transform-it new1)&quot; &quot;test1&quot; &quot;test2&quot; &quot;(def d1 {:id 1 :username \&quot;nrako\&quot; :authentications [\&quot;Twitter\&quot;]})&quot; &quot;(transform-it d1)&quot; &quot;(use '[clojure.stacktrace] :reload-all)&quot; &quot;(e)&quot; &quot;(use '[clojure.tools.cli :as cli] :reload-all)&quot; &quot;(source parse-opts\n        )&quot; &quot;(+ 1 1)&quot; &quot;(use '[datomic.api :as dat] :reload-all )&quot; &quot;(def test-uri\&quot;datomic:free://localhost:4334/bam_dev\&quot;)\n&quot; &quot;(d/connect test-uri)&quot; &quot;(def test-uri2 \&quot;datomic:free://localhost:4334\&quot;)\n&quot; &quot;(dat/connect test-uri2)&quot; &quot;(def test-uri \&quot;datomic:free://localhost:4334/test\&quot;)\n&quot; &quot;(dat/connect test-uri)&quot; &quot;(dat/connec test-uri2)&quot; &quot;(dat/creaet-database test-uri)&quot; &quot;(dat/create-database test-uri)&quot; &quot;(use '[bam.core :as the-core] :reload-all)&quot; &quot;(add-user db-inst test1)&quot; &quot;(use '[bam.db.core :as db-core] :reload-all)&quot; &quot;(create-schema)&quot; &quot;(use '[datomic.api :as d] :reload-all)&quot; &quot;(create-schema (d/db db-conn))&quot;], :remote [&quot;(def test10 {:username \&quot;Test10\&quot; :email \&quot;test10@example.com\&quot; :fullname \&quot;tester\&quot; :role -1})&quot; &quot;(add-user test10)&quot; &quot;(db-inst)&quot; &quot;(add-user (db-inst) test10)&quot; &quot;(use '[clojure.stacktrace] :reload-all)&quot; &quot;(add-user db-conn test10)&quot; &quot;(e)&quot; &quot;data-schema&quot; &quot;get-reference-idents&quot; &quot;(keyword \&quot;user\&quot; \&quot;string\&quot;)&quot; &quot;(keyword \&quot;user\&quot; \&quot;name\n\&quot;)&quot; &quot;(vec {:a 1})&quot; &quot;(into [] {:a 1})&quot; &quot;(seq {:a 1})&quot; &quot;(seq? [1 2])&quot; &quot;(sequential? [1 2])&quot; &quot;(sequential? \&quot;string\&quot;)&quot; &quot;(last [1 2])&quot; &quot;(use '[bam.db.schema :as my_schema] :reload-all)&quot; &quot;(create-schema)&quot; &quot;(create-schema datomic-schema)&quot; &quot;(create-schema db-conn datomic-schema)&quot; &quot;(env :database-url)&quot; &quot;(-&gt;env :database-url)&quot; &quot;(use '[bam.config :as env] :reload-all)&quot; &quot;(-&gt; env :database-url)&quot; &quot;(d/delete-database (-&gt; env :database-url))&quot; &quot;(d/create-database (-&gt; env :database-url))&quot; &quot;(use '[bam.db.schema :as schema] :reload-all)&quot; &quot;data-references&quot; &quot;(use '[bam.db.datomic-adapter :as adapter] :reload-all)&quot; &quot;datomic-schema&quot; &quot;(add-user (first data-import))&quot; &quot;(add-user db-conn (first data-import))&quot; &quot;(add-user (sample-data))&quot; &quot;(add-user (db-inst) (sample-data))&quot; &quot;(add-user db-conn (sample-data))&quot; &quot;db-conn&quot; &quot;(use '[bam.db.core :as core] :reload-all)&quot; &quot;(add-user   ( db-conn )(sample-data))&quot; &quot;(create-schema db-conn)&quot; &quot;(add-user   db-conn (sample-data))&quot; &quot;(add-user   db-conn (first (sample-data) ))&quot; &quot;(add-user   db-conn (first (rest  (sample-data)) ))&quot; &quot;(retrieve-with {:user/username \&quot;nrako\&quot;})&quot; &quot;(retrieve-with {:user/email \&quot;test@example.com\&quot;})&quot; &quot;data-entities&quot; &quot;(use '[compojure.core] :reload-all)&quot; &quot;(compile-route :get \&quot;/\&quot; [] {:test 1})&quot; &quot;(defn echo-it [input] (prn input))&quot; &quot;()&quot; &quot;(compile-route :get \&quot;/\&quot; [] echo-it)&quot; &quot;(compile-route :get \&quot;/\&quot; [] #( echo-it %))&quot; &quot;(seq {:tst 1})&quot; &quot;(GET \&quot;/\&quot; [] (echo-it 1))&quot; &quot;(GET \&quot;/:id\&quot; [] (echo-it id))&quot; &quot;(GET \&quot;/:id\&quot; [] (echo-it %))&quot; &quot;(GET \&quot;/:id\&quot; [] #(echo-it %))&quot; &quot;(GET \&quot;/:test\&quot; [] #(echo-it %))&quot; &quot;(GET \&quot;/:test\&quot; [] (ok (echo-it test)) )&quot; &quot;(def endpoints [:user :organizations :projects])&quot; &quot;(use '[compojure.api.meta :as meta] :reload-all)&quot; &quot;(use '[compojure.core :as comp-core] :reload-all)&quot; &quot;(namespace :user/test)&quot; &quot;(keyword :user/test)&quot; &quot;(name :user/test)&quot; &quot;(keyword \&quot;user/:id\&quot;)&quot; &quot;(namespace (keyword \&quot;user/:id\&quot;))&quot; &quot;(name (keyword \&quot;user/:id\&quot;))&quot; &quot;(defn rest-paths [result ent]\n  (let [path (str \&quot;/\&quot; (name ent))]\n  (conj result path (str path \&quot;/:id\&quot;))\n  ))&quot; &quot;(rest-paths :user)&quot; &quot;(rest-paths [] :user)&quot; &quot;(def ents [:user :organizations :projects])&quot; &quot;(reduce rest-paths [] ents)&quot; &quot;(compile-route :get \&quot;/user\&quot; \&quot;test\&quot;)&quot; &quot;(compile-route :get \&quot;/user\&quot; [] \&quot;test\&quot;)&quot; &quot;(compile-route :get \&quot;/user\&quot; [] #(prn % ))&quot; &quot;(use '[bam.routes.services :as servicer] :reload-all)&quot; &quot;(+ 1 1)&quot; &quot;(use '[compojure.api.sweet :as sweet] :reload-all)&quot; &quot;(use '[compojure.api.meta :as meta]  :reload-all)&quot; &quot;(def r1 [\&quot;/r1/:username\&quot; [] :path-params [username :- String] \&quot;test\&quot;])&quot; &quot;(def r1 (meta/restructure :get [\&quot;/r1/:username\&quot; [] :path-params [username :- String] \&quot;test\&quot;]))&quot; &quot;(def r1 (meta/restructure :get [\&quot;/r1/:username\&quot; [] \&quot;test\&quot;]))&quot; &quot;(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n  )&quot; &quot;(def r1 (meta/restructure :ge[\&quot;(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :ge(defn get-builder [&amp; args]\n  (meta/restructure :get args)\n r1 (meta/restructure :get [\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot;/r1/:username\&quot; [] \&quot;test\&quot;])\&quot; [] \&quot;test\&quot;]))&quot; &quot;(def r1 \&quot;/:username\&quot; []\n                               :path-params [username :- String]\n                               :summary \&quot;Retrieve user by username\&quot; \&quot;test\&quot; )&quot; &quot;(source &amp;)&quot; &quot;(doc &amp;)&quot; &quot;(defn printer [&amp; args] (prn (class args)))&quot; &quot;(printer 1 2 3)&quot; &quot;(prn (class []))&quot; &quot;(prn (class (make-arra 1 2 3)))&quot; &quot;(prn (class (make-array 1 2 3)))&quot; &quot;(seq [1 3 4])&quot; &quot;(class (rest (seq [1 3 4]) ))&quot; &quot;(source rest)&quot; &quot;(rest [1 2 3])&quot; &quot;(class {})&quot; &quot;(not true)&quot; &quot;(not false)&quot;]}}</component>
   <component name="RunManager" selected="Clojure REPL.lein-repl">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -202,6 +310,13 @@
       <setting name="parameters" value="" />
       <setting name="workingDir" value="" />
       <setting name="profiles" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="0" />
+      <module name="" />
       <method />
     </configuration>
     <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
@@ -301,6 +416,17 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <LeiningenRunnerParameters>
+        <option name="myGoals">
+          <list />
+        </option>
+        <option name="myWorkingDirectory" value="" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="false" />
+      </LeiningenRunnerParameters>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -322,6 +448,13 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
+    <configuration default="false" name="nrepl" type="ClojureREPL" factoryName="Remote">
+      <setting name="host" value="localhost" />
+      <setting name="port" value="7000" />
+      <setting name="replType" value="0" />
+      <module name="bam" />
+      <method />
+    </configuration>
     <configuration default="false" name="lein-repl" type="ClojureREPL" factoryName="Local">
       <setting name="replType" value="1" />
       <module name="bam" />
@@ -331,8 +464,37 @@
       <setting name="profiles" value="" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.lein-repl" />
+    <configuration default="false" name="lein-run" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <LeiningenRunnerParameters>
+        <option name="myGoals">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="true" />
+      </LeiningenRunnerParameters>
+      <method />
+    </configuration>
+    <configuration default="false" name="figwheel" type="LeiningenRunConfiguration" factoryName="Leiningen">
+      <LeiningenRunnerParameters>
+        <option name="myGoals">
+          <list>
+            <option value="figwheel" />
+          </list>
+        </option>
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$" />
+        <option name="profiles" value="" />
+        <option name="trampoline" value="false" />
+      </LeiningenRunnerParameters>
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.nrepl" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.lein-repl" />
+      <item index="2" class="java.lang.String" itemvalue="Leiningen.lein-run" />
+      <item index="3" class="java.lang.String" itemvalue="Leiningen.figwheel" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -354,30 +516,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-5" y="50" width="1936" height="1049" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.084632516" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36780384" sideWeight="0.75547445" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36780384" sideWeight="0.24452555" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27394208" sideWeight="0.3763326" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31503198" sideWeight="0.5904762" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21492206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17508417" sideWeight="0.62366736" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31503198" sideWeight="0.40952381" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14072494" sideWeight="0.49503547" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21908316" sideWeight="0.50496453" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -397,19 +568,145 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/schema.clj">
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/routes/home.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/routes/services.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/repo_service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/datomic_adapter.clj">
+    <entry file="file://$PROJECT_DIR$/profiles.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/bam/dev_middleware.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/user.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/routes/home.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/routes/services.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/repo_service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/bam/dev_middleware.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/user.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -417,6 +714,213 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/bam/env.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/bam/figwheel.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/bam/dev_middleware.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/user.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/repo_service.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/schema.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1721">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/db/datomic_adapter.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/routes/services.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/ajax.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljc/bam/validation.cljc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/bam/routes/home.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/layout.html" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/datomic/datomic-free/0.9.5394/datomic-free-0.9.5394.jar!/datomic/kv_sql/KVSql.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/css/gentelella_theme.css" />
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/layout.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/bug_fix_defs/2016_10_03_12_25_NAME_Names_Mobile_Phone_Label.def">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8364">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/core-sidebar-test.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/handlers.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/db.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/core.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cljs/bam/subscriptions.cljs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/public/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

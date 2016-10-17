@@ -1,4 +1,5 @@
 (ns bam.db)
 
 (def default-db
-  {:page :home})
+  {:page :home :sidebar-collapsed? true})
+
