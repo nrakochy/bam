@@ -11,23 +11,24 @@
             [bam.subscriptions])
   (:import goog.History))
 
-(defn nav-link [uri title page]
+(defn nav-link [{:keys [uri icon page title]}]
   (let [selected-page (rf/subscribe [:page])]
     [:li.nav-item
      {:class (when (= page @selected-page) "active")}
      [:a.nav-link
-      {:href uri} title]]))
+      {:class icon
+      :href uri} title]]))
 
 (defn sidebar []
   [:div.sidebar-nav
    [:ul.nav
-    [nav-link "#/" "Home" :home]
-    [nav-link "#/about" "About" :about]]])
+    [nav-link {:uri "#/" :icon "fa fa-home fa-2x" :page :home :title nil}]
+    [nav-link {:uri "#/about" :icon "fa fa-user fa-2x" :page :about :title nil}]]])
 
 (defn navbar []
   [:div.navbar.navbar-default.navbar-fixed-top.hidden-md-up
    {:role "navigation"}
-   [:div.container-fluid
+   [:div.container
     [:div.navbar-header
      [:button.btn.btn-lg.navbar-toggler.hidden-md-up.pull-right
       {:on-click #(rf/dispatch [:toggle-sidebar])}
@@ -69,13 +70,13 @@
 
 (defn page []
   [:div
-   [:section (navbar)]
+   [:section.col-xs-12 (navbar)]
    [:section#main-section
     [:div.row.row-offcanvas
      {:class @(rf/subscribe [:sidebar-state])}
-     [:div#sidebar.col-xs-6.col-sm-3.col-md-2.sidebar-offcanvas
+     [:div#sidebar.col-xs-3.col-sm-1.sidebar-offcanvas
       {:role "navigation"} (sidebar)]
-     [:div.col-xs-12.col-sm-9.col-md-10
+     [:div.col-xs-12.col-sm-11
       [(pages @(rf/subscribe [:page]))]]]]])
 
 ;; -------------------------
@@ -99,8 +100,7 @@
         (secretary/dispatch! (.-token event))))
     (.setEnabled true)))
 
-;; -------------------------
-;; Initialize app
+;; ------------------------- ;; Initialize app
 (defn fetch-docs! []
   (GET (str js/context "/docs") {:handler #(rf/dispatch [:set-docs %])}))
 
